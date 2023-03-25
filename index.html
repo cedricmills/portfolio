@@ -13,49 +13,94 @@
   <title>Cedric Mills | Portfolio</title>
 </head>
 <body id="home">
-  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-4" id="main-nav">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top py-4" id="main-nav">
     <div class="container">
-      <a href="#home-head-section" class="navbar-brand">Cedric</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expand="false">
+      <a class="navbar-brand" href="#home-head-section">Cedric</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expand="false">
         <span class="navbar-toggler-icon"></span>
-      </button>
+        </button>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#home-head-section">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio-head-section">Portfolio</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#experience-head-section">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#social-head-section">About</a>
+            <a class="nav-link" href="#portfolio-head-section">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-head-section">About</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Home Section -->
+<!-- Home Section -->
+
 <header id="home-head-section">
- <div class="dark-overlay">
-  <div id="name">
-    <div class="row">
-     <div class="col-xs-12 home-inner">
-        <span>H</span>
-        <span>E</span>
-        <span>L</span>
-        <span>L</span>
-        <span>O</span>
-        <span>!</span> 
+  <div class="dark-overlay">
+    <div class="container home-inner">
+      <div class="row">
+        <div class="col-lg-6 d-none d-lg-block">
+          <h1 class="display-4"><strong>Cedric Mills </strong>aspiring Full Stack Developer at <strong>Altcademy</strong></h1>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, obcaecati tempora aspernatur dolorum provident molestiae distinctio quis dolor eum sapiente.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, obcaecati tempora aspernatur dolorum provident molestiae distinctio quis dolor eum sapiente.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, obcaecati tempora aspernatur dolorum provident molestiae distinctio quis dolor eum sapiente.
+            </div>
+          </div>
+        </div>
+
+<!--- Form Starts -->
+        <div class="col-lg-6">
+          <div class="form-group bg-dark">
+          <h3>Contact</h3>
+              <p>Use the contact form below to reach out</p>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input class="form-control form-control-lg" type="text" placeholder="Enter name" />
+                </div>
+                <div class="form-group">
+                  <label for="name">Email Address</label>
+                  <input class="form-control form-control-lg" type="email" placeholder="Email" />
+                </div>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea class="form-control form-control-lg" type="textarea" placeholder="Type message here">
+                  </textarea>
+                </div>
+                <button class="btn btn-outline-light btn-block my-2 form-control" type="submit" value="Submit" ><i class="fas fa-envelope"></i>Submit</button>
+              </form>
+          </div>
+        </div>
+
+<!--- Form Ends -->
       </div>
     </div>
   </div>
-</div>
 </header>
-
 
 <!-- Experience Head -->
 <section id="experience-head-section">
@@ -68,9 +113,12 @@
     </div>
   </div>
 </section>
+
 <!-- Experience Section -->
 <section id="experience-section" class="bg-light text-muted py-5">
   <div class="container">
+    <div class="row">
+      <div class="col">
      <h3>What I like To Do</h3>
       <p class="lead">Here, I track my progress and journey through the lifelong path of learning, experimenting, and discovery. I like Linux, 3D Graphics, Web Development and Mangoes...🥭</p>
       <hr>
@@ -98,6 +146,8 @@
       <div class="progress mb-4 mx-3" style="height:20px">
         <div class="progress-bar bg-warning" style="width:80%"></div>
       </div>
+    </div>
+    </div>
     </div>
 
 
@@ -163,100 +213,73 @@
 </div>
 </section>
 
-<!-- Social Head -->
- <section id="social-head-section">
+<!-- About Head Section -->
+ <section id="about-head-section" class="bg-dark">
   <div class="container">
     <div class="row">
       <div class="col text-center py-5">
         <h1 class="text-warning display-4">About</h1>
-        <p class="lead">Currently I am exploring the traversed regions of <a class="text-info" href="https://www.altcademy.com/" target="_blank">Full Stack Web Development.</a></p>
+        <p class="text-light lead">Currently I am on a path of exploring a variety of technologies that make up the field of <a class="text-info" href="https://www.altcademy.com/" target="_blank">Full Stack Web Development.</a></p>
       </div>
     </div>
   </div>
  </section>
- <!-- About and Social Media -->
 
- <section id="social-section">
-  <dev class="dark-overlay2">
-    <div class="container">
-     <div class="col text-center lead text-white py-4">
-        <h3>Feel Free To Reach Out</h3>
-        <p class="lead">I can usually be found using some type of social media platform. There is also a contact button below.</p>
-        <!--Iconts start -->
-        <div class="d-flex justify-content-around">          
-            <div class="social-media display-1">
-              <a href="https://www.instagram.com/cedric_mills/" target="_blank" class="text-white">
-                <i class="fa-brands fa-square-instagram"></i>
-              </a>
+
+ <!-- The main About and Social Media sections -->
+<section  id="about-section" class="bg-light">
+  <div class="dark-overlay2">
+    <div class="about-inner container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/about-section1.jpg" class="img-fluid rounded my-3" />
+          </div>
+          <div class="col-md-6 py-2">
+            <h3>Get Social</h3>
+            <p>I can also be reached using any of the social media platforms listed below!</p>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <a href="https://www.instagram.com/cedric_mills/" target="_blank" class="text-white">
+                  <i class="fa-brands fa-square-instagram fa-3x"></i>
+                </a>
+              </div>              
+              <div class="p-4 align-self-end">
+                <a href="https://www.linkedin.com/in/cedric-m-104722260/" target="_blank" class="text-white"><i class="fa-brands fa-linkedin fa-3x"></i>
+                </a>
+              </div>
             </div>
-            <div class="vertical-border"></div>
-            <div class="social-media display-1">
-              <a href="https://www.linkedin.com/in/cedric-m-104722260/" target="_blank" class="text-white"><i class="fa-brands fa-linkedin"></i>
-              </a>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <a href="https://github.com/cedricmills" target="_blank" class="text-white"><i class="fa-brands fa-github fa-3x"></i>
+                </a>
+              </div>
+              <div class="p-4 align-self-end">
+                <a href="https://twitter.com/CedricMills" target="_blank" class="text-white"><i class="fa-brands fa-twitter fa-3x"></i>
+                </a>
+              </div>
             </div>
-            <div class="vertical-border"></div>
-            <div class="social-media display-1">
-              <a href="https://github.com/cedricmills" target="_blank" class="text-white"><i class="fa-brands fa-github"></i>
-              </a>
-            </div>
-            <div class="vertical-border"></div>
-            <div class="social-media display-1"> 
-              <a href="https://twitter.com/CedricMills" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i>
-              </a>
-            </div>
+           
+          </div>
         </div>
-      </div>
-   
+       </div>
+    </div>
   </div>
-  </dev>
+
 </section>
 
 <!-- Main Footer -->
- <footer id="main-footer">
+ <footer id="main-footer" class="bg-dark">
   <div class="container">
     <div class="row">
       <div class="col text-center py-4">
+        
         <h3>Cedric</h3>
         <p class="lead">Copyright &copy; <span id="year">2023</span></p>
-        <button class="btn btn-outline-warning btn-lg" data-toggle="modal" data-target="#contactModal">
-          <i class="fas fa-user">Contact</i>
-        </button>
       </div>
     </div>
   </div>
  </footer>
- <!-- Contact Modal -->
- <div class="modal fade text-dark" id="contactModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Say Hello</h5>
-        <button class="close" data-dismiss="modal">
-          <span>&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control">
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control">
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea class="form-control"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-warning btn-block">Submit</button>
-      </div>
-    </div>
-  </div>
-  </div>
+
  
 </body>
 <!-- Bootstrap -->
